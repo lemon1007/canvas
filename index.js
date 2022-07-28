@@ -47,7 +47,6 @@ let painting = false;
 //判定用户使用设备
 let isTouchDevice = 'ontouchstart' in
     document.documentElement;
-console.log(isTouchDevice)
 //当用户使用设备为手机时，需要使用触屏
 if (isTouchDevice) {
     //手机上开始触发事件时
