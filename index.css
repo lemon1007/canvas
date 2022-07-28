@@ -5,7 +5,5 @@
 }
 
 #canvas {
-    height: 100vh;
     display: block;
-    border: 2px red solid;
 }
