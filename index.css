@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-.container {
-    position: fixed;
-}
-
 #canvas {
     display: block;
 }
