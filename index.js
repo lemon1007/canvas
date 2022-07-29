@@ -59,6 +59,7 @@ if (isTouchDevice) {
 
     //手机上触摸滑动产生线段
     canvas.ontouchmove = (e) => {
+        // e.preventDefault();
         //手机上调用drawLine函数画线
         let x = e.touches[0].clientX;
         let y = e.touches[0].clientY;
